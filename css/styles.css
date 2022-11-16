@@ -373,7 +373,7 @@ nav{
 @media screen and (max-width:800px) {
 
     html{
-        font-size: 32%;
+        font-size: 34%;
     }
 
     .list{
@@ -385,7 +385,7 @@ nav{
     }
 
     .left-main,.right-main, .server-data, .server-img{
-        width: 80%;
+        width: 90%;
     }
 
     .left-main h1{
@@ -397,6 +397,7 @@ nav{
         width: 100%;
         font-size: 3rem;
         text-align: center;
+        margin-bottom: 5rem;
     }
 
 
@@ -417,7 +418,7 @@ nav{
     }
 
     .features-section h1{
-        width:80%;
+        width:90%;
     }
 
     .feature{
@@ -434,4 +435,8 @@ nav{
 
 }
 
-
+@media screen and (max-width:450px) {
+    .left-main h1{
+        font-size: 6rem;
+    }
+}
