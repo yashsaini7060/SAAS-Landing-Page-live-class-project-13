@@ -52,7 +52,7 @@ nav{
     font-size: 1.8rem;
     font-weight: 500;
     color: #fff;
-    border: 0.1rem solid #fff;
+    border: 0rem solid #fff;
     padding: 1.5rem 2rem;
     cursor: pointer;
 }
@@ -189,7 +189,9 @@ nav{
     margin-left: 1rem;
 }
 
-
+.red,.green,.blue{
+    height: 3rem;
+}
 
 .red{
     filter: invert(43%) sepia(100%) saturate(943%) hue-rotate(340deg) brightness(99%) contrast(92%);
@@ -205,18 +207,231 @@ nav{
 
 
 
+/* SERVER SECTION ENDS */
 
-.red,.green,.blue{
-    height: 3rem;
+/* FEATURES SECTION BEGINS */
+
+.features-section{
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-section h1{
+    font-size: 5rem;
+    width: 38%;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.cards{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 8rem;
+}
+
+
+.card{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.logo-div{
+    padding: 4rem;
+    margin: 4rem 0rem;
+    border-radius: 50%;
+}
+
+.logo-div img{
+    height: 8rem;  
+}
+
+.bottom-content{
+    /* margin-top: 2rem; */
+    text-align: center;
+    border-radius: 4rem;
+    padding: 2rem 0rem;
+}
+.active{
+    background-color: #7131CC;
+}
+
+
+.bottom-content h5{
+    font-size: 2.5rem;
+}
+
+
+.bottom-content p{
+    font-size: 2rem;
+    margin: 1rem 0rem;
+
+}
+
+.logo1{
+    background-color: #fbeaea;;
+}
+.logo2{
+    background-color: #faf1ee;;
+}
+.logo3{
+    background-color: #e8f4f7;;
+}
+.logo4{
+    background-color: #f3e6f5;;
+}
+
+.logo1>img{
+    filter: invert(70%) sepia(55%) saturate(323%) hue-rotate(308deg) brightness(80%) contrast(92%);
+}
+
+
+.logo2>img{
+    filter: invert(80%) sepia(50%) saturate(5363%) hue-rotate(335deg) brightness(105%) contrast(90%);
+}
+
+.logo3>img{
+    filter: invert(19%) sepia(21%) saturate(5260%) hue-rotate(165deg) brightness(104%) contrast(101%);
+}
+
+
+.logo4>img{
+    filter: invert(31%) sepia(14%) saturate(6505%) hue-rotate(266deg) brightness(97%) contrast(84%);
 }
 
 
 
 
-/* SERVER SECTION ENDS */
+/* FEATURES SECTION ENDS */
+
+
+/* RESPONSIVE SECTION BEGINS */
+
+@media screen and (max-width:1700px) {
+
+    html{
+        font-size: 45%;
+      }
+
+}
+
+
+@media screen and (max-width:1320px) {
+
+    html{
+        font-size: 40%;
+      }
+
+}
 
 
 
+@media screen and (max-width:1320px) {
 
+    html{
+        font-size: 35%;
+      }
+
+}
+
+
+@media screen and (max-width:1050px) {
+
+    html{
+        font-size: 30%;
+      }
+
+}
+
+
+@media screen and (max-width:850px) {
+
+    html{
+        font-size: 30%;
+      }
+
+}
+
+@media screen and (max-width:800px) {
+
+    html{
+        font-size: 28%;
+      }
+
+}
+
+
+@media screen and (max-width:800px) {
+
+    html{
+        font-size: 32%;
+    }
+
+    .list{
+        display: none;
+    }
+    .main-section{
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .left-main,.right-main, .server-data, .server-img{
+        width: 80%;
+    }
+
+    .left-main h1{
+        width: 100%;
+        text-align: center;
+        font-size: 8rem;
+    }
+    .left-main p{
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+
+    .server-section{
+        flex-direction:column;
+        align-items: center;
+    }
+    .server-data {
+        margin-left: 0rem;
+    }
+
+    .server-data h2{
+        width: 100%;
+        text-align: center;
+    }
+    .features{
+        align-items: center;
+    }
+
+    .features-section h1{
+        width:80%;
+    }
+
+    .feature{
+        width: 70%;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 5rem;
+
+    }
+
+}
 
 
