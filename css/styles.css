@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* NAVBAR BEGINS */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+    height: auto;
+    background-color: #7131CC;
+}
+
+
+
+
+.logo>img{
+    height: 4.5rem;
+    filter: invert(1);
+}
+
+.list{
+    display: flex;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+
+.list{
+    list-style-type: none;
+    float: right;
+}
+.list>li{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.nav-btn{
+    background-color: #1ABDEF;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+    border: 0.1rem solid #fff;
+    padding: 1.5rem 2rem;
+    cursor: pointer;
+}
+.nav-link{
+    color: #ffffff;
+}
+
+.active{
+    color: #ffffff;
+}
+
+
+.burger{
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    border: 0.1rem solid transparent;
+    padding: 1.4rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.burger:hover{
+    border: 0.1rem solid #fffefe;
+}
+
+.burger>div{
+    background-color: #fffefe;
+    height: 0.8rem;
+    width: 5rem;
+}
+
+
+
+
+/* NAVBAR ENDS */
+
+
+/* MAIN SECTION BEGINS */
+
+.main-section{
+    display: flex;
+    padding: 2rem 10rem;
+    background-color: #7131CC;
+}
+
+
+.left-main, .right-main{
+    width: 50%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+
+.left-main{
+    padding: auto 0rem;
+}
+
+
+.left-main h1{
+    width: 90%;
+    font-size: 10rem;
+    font-weight: 700;
+}
+
+
+.left-main p{
+    width: 80%;
+    font-size: 2.2rem;
+    margin-top: 5rem;
+}
+
+/* MAIN SECTION ENDS */
+
+
+/* SERVER SECTION BEGINS */
+
+
+
+
+.server-data, .server-img{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.server-data{
+    margin-left: 8rem;
+}
+
+
+.server-section{
+    display: flex;
+    padding: 8rem 10rem;
+}
+
+.server-img img{
+    height: 70rem;
+}
+
+.server-data h2{
+    font-size: 5rem;
+    width:80%;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0rem;
+
+
+}
+
+
+.feature{
+    display: flex;
+    width: 50%;
+    margin-top: 4rem;
+}
+
+.feature h4{
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.feature p{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+
+
+.red{
+    filter: invert(43%) sepia(100%) saturate(943%) hue-rotate(340deg) brightness(99%) contrast(92%);
+}
+
+.green{
+    filter: invert(80%) sepia(34%) saturate(492%) hue-rotate(68deg) brightness(100%) contrast(93%);
+}
+
+.blue{
+    filter: invert(72%) sepia(55%) saturate(4156%) hue-rotate(156deg) brightness(99%) contrast(90%);
+}
+
+
+
+
+.red,.green,.blue{
+    height: 3rem;
+}
+
+
+
+
+/* SERVER SECTION ENDS */
+
+
+
+
+
+
